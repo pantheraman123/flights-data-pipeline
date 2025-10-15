@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: flights
+    description: "Flights data loaded via PySpark/Snowflake loader"
+    database: DEMO_DB          # Replace with your Snowflake database name
+    schema: PUBLIC             # Replace if you are using a different schema
+    tables:
+      - name: transformed_flights
+        description: "Processed flights data loaded from PySpark ETL"
