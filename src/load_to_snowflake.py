@@ -7,4 +7,4 @@ ctx = snowflake.connector.connect(
 )
 cs = ctx.cursor()
 cs.execute('CREATE DATABASE IF NOT EXISTS FLIGHTS_DB')
-print('✅ Connected to Snowflake and created database')
+print('Connected to Snowflake and created database')
