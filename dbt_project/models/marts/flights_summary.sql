@@ -1,0 +1,1 @@
+SELECT airline, COUNT(*) AS total_flights FROM {{ ref('stg_flights') }} GROUP BY airline;

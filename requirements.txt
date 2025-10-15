@@ -1,0 +1,5 @@
+pyspark
+requests
+snowflake-connector-python
+dbt-core
+pandas
