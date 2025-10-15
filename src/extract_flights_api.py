@@ -6,4 +6,4 @@ response = requests.get(URL)
 data = response.json()
 with open('raw_flights.json', 'w') as f:
     json.dump(data, f, indent=2)
-print('✅ Data extracted and saved to raw_flights.json')
+print('Data extracted and saved to raw_flights.json')
